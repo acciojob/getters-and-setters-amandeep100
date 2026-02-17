@@ -17,13 +17,17 @@ this._age = newAge
 
 class Student extends Person {
 study(){
-	console.log(`${this.name} is teaching`)
+	console.log(`${this.name} is studing`)
 
 }
 	
 }
 
-class Teacher extends Person {}
+class Teacher extends Person {
+	teach(){
+		console.log(`${this.name} is teaching`)
+}
+}
 
 // Do not change the code below this line
 window.Person = Person;
